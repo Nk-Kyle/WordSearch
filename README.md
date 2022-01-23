@@ -27,6 +27,7 @@ To run the program:
 - Go to main project folder and run <i><b>run.bat</b></i> file. <br>
 - Input file name / source (Test files included in test folder). To note: current running folder is bin/
 - Resulting searched words and execution data (time elapsed and total comparison) will be shown.
+
 To add new file:
 - Add Matrice of character with N by M dimension, seperated by space for each horizontal adjacent character.
 - List of Words seperated with new line between words and a single blank line between list of words and character matrice.
