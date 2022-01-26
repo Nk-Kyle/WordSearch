@@ -13,8 +13,9 @@
 
 
 ## General Information
-- Word Search Program with Brute Force Algorithm made using C language
+- Word Search Program with Brute Force Algorithm made using C language.
 - Implementation including: linkedlist of node <string, int> and char ANSI color print.
+- Algorithm implemented in two version : Optimized and unoptimized.
 
 
 ## Technologies Used and Requirements
@@ -24,9 +25,10 @@
 
 ## Usage
 To run the program: 
-- Go to main project folder and run <i><b>run.bat</b></i> file. <br>
-- Input file name / source (Test files included in test folder). To note: current running folder is bin/
+- Go to main project folder and run <i><b>run.bat</b></i> file for optimized wordsearch algorithm or <i><b>runbasic.bat</b></i> for unoptimized version of wordsearch algorithm. <br>
+- Input file name / source (Test files included in test folder). Example: test/small1.txt
 - Resulting searched words and execution data (time elapsed and total comparison) will be shown.
+- Resulting binary / Executable file availabe in bin folder: main.exe (optimized version) or mainbasic.exe (unoptimized version)
 
 To add new file:
 - Add Matrice of character with N by M dimension, seperated by space for each horizontal adjacent character.

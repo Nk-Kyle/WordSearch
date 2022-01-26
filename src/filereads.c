@@ -90,7 +90,7 @@ board * readMat (LinkedList *listWords, int *rows, int *cols){
       scanf("%s", &fname);
       ftape = fopen(fname, "r");
       if (ftape == NULL){
-         printf("File Not Found. Please Specify folder directory or check file name. Ex : ../test/in.txt\n");
+         printf("File Not Found. Please Specify folder directory or check file name. Ex : test/small1.txt\n");
       }
    } while(ftape == NULL);
    
